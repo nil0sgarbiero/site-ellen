@@ -1,0 +1,22 @@
+{
+  "name": "site-ellen",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.16.2",
+    "better-sqlite3": "^13.0.3",
+    "nuxt": "^4.6.1",
+    "vue": "^3.5.43",
+    "vue-router": "^5.4.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
